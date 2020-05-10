@@ -18,4 +18,6 @@ npm install
 
 Replace values in the wpgulp.config.js
 
+Remove .gitkeep files inside js, css and img
+
 > Search replace all WPMODEVSTARTER withthe theme name

@@ -24,7 +24,7 @@
 	<header id="masthead">
 		<div id=""class="site-header">
 			<div class="branding">
-				<a target="_blank" href="https://renteradar.no/?utm_source=renteradarblogg&utm_medium=logo&utm_campaign=referral"><img loading="lazy" src="/wp-content/themes/renteradar-blogg/assets/img/logo.svg" alt="Renteradar logo"></a>
+				<a target="_blank" href="#" alt="#"></a>
 			</div>
 			<button
 				id="menu-toggle-mobile"

@@ -1,0 +1,135 @@
+/*
+Theme Name: WPMODEVSTARTER
+Theme URI: https://WPMODEVSTARTER.no
+Author: Martin Owren
+Author URI: https://martinowren.com
+*/
+
+/** Normalize **/
+@import "normalize.scss";
+
+/** Variables **/
+@import "variables.scss";
+
+/**
+    Standard styles
+**/
+html {
+	font-size: 16px;
+	line-height: calc(1rem * 1.5);
+}
+body {
+	color: var(--WPMODEVSTARTER-font-color);
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	background-color: var(--WPMODEVSTARTER-color-grey);
+
+	h1.thick,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-weight: bold;
+	}
+
+	h1,
+	h2.x-large,
+	h2.large,
+	h2.medium,
+	h2,
+	p.ingress,
+	p {
+		font-weight: 400;
+	}
+}
+
+main {
+	min-height: calc(100vh - 162px);
+	position: relative;
+}
+
+h1.thick {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 4.202);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 4.5);
+}
+h1 {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 3.232);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 3.5);
+}
+h2.x-large {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 2.856);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 3.5);
+}
+h2.large {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 2.197);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 3);
+}
+h2.medium {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.912);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 3);
+}
+h2 {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.57);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 2);
+}
+h3 {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.471);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 2);
+}
+h4 {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.3);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 2);
+}
+h5 {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.208);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 1.5);
+}
+h6 {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.132);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 1.5);
+}
+p.ingress,
+p.ingress a {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1.3);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 2);
+}
+p,
+a,
+p a {
+	font-size: calc(var(--WPMODEVSTARTER-font-baseline) * 1);
+	line-height: calc(var(--WPMODEVSTARTER-font-baseline) * 1.5);
+	text-decoration: none;
+	color: var(--WPMODEVSTARTER-font-color);
+}
+a,
+p a {
+	text-decoration: underline;
+	color: var(--WPMODEVSTARTER-color-turkis);
+}
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	word-wrap: normal !important;
+	&:focus {
+		z-index: 10;
+		height: auto;
+		width: auto;
+		clip-path: none;
+		clip: initial;
+		background-color: #ffffff;
+		padding: 1rem;
+	}
+}
+.hidden {
+	display: none !important;
+}
+ul {
+	padding-inline-start: 1rem;
+}

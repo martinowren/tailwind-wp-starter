@@ -399,3 +399,12 @@ gulp.task(
 		}
 	)
 );
+
+gulp.task("zippify", () => {
+	gulp.series("styles", "vendorsJS", "customJS", "images");
+	const srcArray = ["./**", "!./node_modules/**", "!./**.zip"];
+	return gulp
+		.src(srcArray)
+		.pipe(zip(config.packageName.toLowerCase() + ".zip"))
+		.pipe(gulp.dest("./"));
+});

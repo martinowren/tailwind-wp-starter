@@ -47,6 +47,13 @@ add_action(
 		 */
 		add_theme_support('soil', [
 			'clean-up',
+			'disable-trackbacks',
+			'google-analytics' => [
+				'should_load' => true,
+				'anonymize_ip' => false,
+				'google_analytics_id' => 'UA-XXXYYY',
+			],
+			'js-to-footer',
 			'nav-walker',
 			'nice-search',
 			'relative-urls',

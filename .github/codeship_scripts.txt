@@ -1,0 +1,7 @@
+# Here you can find the setup commands that you would want to use with Codeship
+nvm install 13
+npm i
+npm run build
+rm -rf README.md tail node_modules src .gitignore .git .prettierrc package.json package-lock.json .vscode
+
+

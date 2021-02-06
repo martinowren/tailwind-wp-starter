@@ -2,6 +2,15 @@
 
 [Tailwind Docs](https://tailwindcss.com/docs)
 [Tailwind Playground](https://play.tailwindcss.com/)
+## Features
+**Tailwind** | Tailwind is included and optimized for Wordpress  
+**Babel** | Babel is setup to transpile your css  
+**PostCSS** | PostCSS with Sass nesting, autoprefixer & browserfix  
+**Prettier** | Prettier is setup with @wordpress/prettier rules and pre commit hooks  
+**WordPress Markup** | Cleaner Wordpress Markup  
+**JS Optimization** | Uglify and minimize JS  
+**CSS Optimization** | Uglify and minimize CSS  
+**ACF block-adding script** | A simple script to boilerplate the addition of blocks  
 
 ### Prerequisites
 

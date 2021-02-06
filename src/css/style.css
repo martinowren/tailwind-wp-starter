@@ -1,13 +1,6 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
-.klasse {
-	color: red;
 
-	&.martin {
-		background-color: yellow;
-	}
-}
-.test {
-	color: black;
-}
+/* Global CSS */
+@import 'global';

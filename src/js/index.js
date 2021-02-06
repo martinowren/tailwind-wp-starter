@@ -1,4 +1,6 @@
+// Import global CSS for building
 import '../css/style.css';
-console.log('test');
-const martin = 'hei';
-console.log(martin);
+
+// Import vendor JS
+
+// Import custom global JS

@@ -7,6 +7,7 @@
  */
 require_once __DIR__ . '/src/helpers/assets.php';
 require_once __DIR__ . '/src/helpers/filters.php';
+require_once __DIR__ . '/src/helpers/speed.php';
 
 /**
  * Register the theme assets.

@@ -6,6 +6,7 @@
 ### Prerequisites
 
 Node and NPM should be installed
+Install roots/soil as a MU-plugin
 
 ---
 

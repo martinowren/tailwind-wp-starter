@@ -1,6 +1,8 @@
-// Import global CSS for building
+/* Import global CSS for building */
 import '../css/style.css';
 
-// Import vendor JS
+/* Import vendor JS */
 
-// Import custom global JS
+/* Import custom global JS */
+
+/* Import block JS */

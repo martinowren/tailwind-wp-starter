@@ -12,7 +12,7 @@
 		"start": "webpack --watch --node-env development",
 		"build": "webpack --progress --node-env production",
 		"clean": "rm -rf dist/*",
-		"prettier": "prettier -w **.php"
+		"prettier": "prettier -w **.php **/**.php"
 	},
 	"repository": {
 		"type": "git",

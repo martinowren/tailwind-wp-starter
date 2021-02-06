@@ -58,6 +58,18 @@ module.exports = {
 					},
 				},
 			},
+			{
+				test: /\.m?js$/,
+				use: {
+					loader: 'prettier-loader',
+				},
+			},
+			{
+				test: /\.css$/,
+				use: {
+					loader: 'prettier-loader',
+				},
+			},
 		],
 	},
 	plugins: [

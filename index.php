@@ -9,7 +9,6 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
- * @package WPMODEVSTARTER
  */
 
 get_header();

@@ -6,7 +6,6 @@
  *
  * @package WPMODEVSTARTER
  */
-
 ?>
 		</div><!-- #content -->
 	</main>

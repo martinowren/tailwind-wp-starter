@@ -8,7 +8,6 @@
  *
  * @package WPMODEVSTARTER
  */
-
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -19,7 +18,10 @@
 </head>
 
 <body <?php body_class(); ?>>
-	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', '_s' ); ?></a>
+	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e(
+ 	'Skip to content',
+ 	'_s'
+ ); ?></a>
 
 	<header id="masthead">
 		<div id=""class="site-header">
@@ -33,7 +35,11 @@
 				aria-label="Mobile menu toggle button"
 				onClick="toggleMobileMenu()"></button>
 			<nav>
-				<?php wp_nav_menu(array('menu_id' => 'main_menu', 'menu_class' => 'navbar-nav', 'theme_location'=> 'Hovedmeny'));?>
+				<?php wp_nav_menu([
+    	'menu_id' => 'main_menu',
+    	'menu_class' => 'navbar-nav',
+    	'theme_location' => 'Hovedmeny',
+    ]); ?>
 			</nav>
 		</div><!-- .site-header -->
 	</header><!-- #masthead -->

@@ -2,6 +2,6 @@
 nvm install 13
 npm i
 npm run build
-rm -rf README.md tail node_modules src .gitignore .git .prettierrc package.json package-lock.json .vscode
+rm -rf README.md tailwind.config.js webpack.config.js node_modules src .gitignore .git .prettierrc package.json package-lock.json .vscode .github
 
 
